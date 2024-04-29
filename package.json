@@ -1,6 +1,6 @@
 {
   "name": "matrix-solve",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -16,7 +16,7 @@
   "license": "MIT",
   "description": "A class for performing basic matrix operations in JavaScript ",
   "repository": {
-    "url": "https://github.com/JuanDeDiosO/matrix-operations"
+    "url": "https://github.com/JuanDeDiosO/matrix-solve"
   },
   "dependencies": {
     "fraction.js": "^4.3.7",
