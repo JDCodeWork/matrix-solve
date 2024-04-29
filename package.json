@@ -16,7 +16,7 @@
   "license": "MIT",
   "description": "A class for performing basic matrix operations in JavaScript ",
   "repository": {
-    "url": ""
+    "url": "https://github.com/JuanDeDiosO/matrix-operations"
   },
   "dependencies": {
     "fraction.js": "^4.3.7",
