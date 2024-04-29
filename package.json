@@ -1,6 +1,6 @@
 {
-  "name": "matrix-operations",
-  "version": "0.0.1",
+  "name": "matrix-utils",
+  "version": "0.1.0",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -12,7 +12,7 @@
     "calculations",
     "JavaScript"
   ],
-  "author": "Juan D",
+  "author": "code_work",
   "license": "MIT",
   "description": "A class for performing basic matrix operations in JavaScript ",
   "repository": {
@@ -28,6 +28,10 @@
     "@types/jest": "^29.5.12",
     "babel-jest": "^29.7.0",
     "eslint": "^8.57.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0 || ^16.0.0 ",
+    "eslint-plugin-promise": "^6.0.0",
     "inquirer-table-input": "^0.0.3",
     "jest": "^29.7.0"
   },
