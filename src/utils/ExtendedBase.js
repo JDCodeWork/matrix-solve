@@ -20,7 +20,7 @@ export class ExtendedBase extends Base {
       for (let i = 0; i < row.length; i++) {
         const element = row[i]
 
-        const isExtended = i > indexToNumberTSEColumns ? true : false
+        const isExtended = i > indexToNumberTSEColumns
         newRow[!isExtended ? `x${i + 1}` : `i${i - row.length + 3}`] = element
       }
 
