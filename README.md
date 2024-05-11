@@ -20,8 +20,3 @@ Matrix Console Interface uses the following third-party libraries:
 ## Contact
 For questions or feedback, please contact the project maintainer:
 - [code_work](mailto:jdorozco.codework@gmail.com)
-
-## Version History
-- **v0.1.2** (April 2024): Implements README.md
-- **v0.1.1** (April 2024): Solve litter details.
-- **v0.1.0** (April 2024): Initial implements basic tools.

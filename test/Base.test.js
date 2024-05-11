@@ -1,6 +1,7 @@
+import { describe, beforeEach, test, expect } from '@jest/globals'
 import { Base as Matrix } from '../src/Base'
 
-describe('Test in Base extended of Matrix', () => {
+describe('Test in Base of Matrix', () => {
   const MATRIX_BASE = [
     ['2', '3'],
     ['4', '5']
@@ -36,6 +37,17 @@ describe('Test in Base extended of Matrix', () => {
     const [newMatrix] = matrix.extendMatrix({
       matrixToExtend: MATRIX_TO_EXTEND
     })
+
+    expect(newMatrix).toEqual(EXPECTED_MATRIX)
+  })
+
+  test('should return the transpose of the matrix', () => {
+    const EXPECTED_MATRIX = [
+      ['2', '4'],
+      ['3', '5']
+    ]
+
+    const newMatrix = matrix.transpose()
 
     expect(newMatrix).toEqual(EXPECTED_MATRIX)
   })

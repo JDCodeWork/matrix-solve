@@ -1,5 +1,5 @@
 import Fraction from 'fraction.js'
-import { Matrix } from './core/Matrix'
+import { Matrix } from './core/Matrix.js'
 
 export class Base extends Matrix {
   /**
@@ -46,5 +46,23 @@ export class Base extends Matrix {
     }
 
     return [newMatrix, indexToStartExtendedColumns]
+  }
+
+  /**
+   * Returns the transpose of the matrix you are working with.
+   * @returns {Array<string[]>}
+   */
+  transpose () {
+    const newMatrix = []
+    this.Matrix[0].forEach((_, colIndex) => {
+      const newRow = []
+
+      this.Matrix.forEach(row => {
+        newRow.push(row[colIndex])
+      })
+      newMatrix.push(newRow)
+    })
+
+    return newMatrix
   }
 }

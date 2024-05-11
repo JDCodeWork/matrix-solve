@@ -17,8 +17,6 @@ export class Matrix {
     })
   }
 
-  
-
   /**
    * Use the multiplier that contains a number or a fraction to multiply the row corresponding to the index provider by the rowToMultiply
    * @param {{indexOfRowToMultiply: number, multiplier: number}} params
@@ -40,6 +38,7 @@ export class Matrix {
 
     return newArrayOfRow
   }
+
   /**
    * Add the index of row provider with the array provider
    * @param { {indexOfFirstRowToSum: number, secondRowToSum: Array<string>}} params
@@ -77,6 +76,7 @@ export class Matrix {
   setMatrix ({ newMatrix }) {
     this.Matrix = [...newMatrix]
   }
+
   /**
    * Use a index of row to set the mew Row
    * @param {{indexOfRowToSet: number, newRow: []}} params
@@ -85,6 +85,4 @@ export class Matrix {
   setRow ({ indexOfRowToSet, newRow }) {
     this.Matrix[indexOfRowToSet] = newRow
   }
-
-  
 }

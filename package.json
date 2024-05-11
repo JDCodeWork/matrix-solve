@@ -1,6 +1,6 @@
 {
   "name": "matrix-solve",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -16,7 +16,7 @@
   "license": "MIT",
   "description": "A class for performing basic matrix operations in JavaScript ",
   "repository": {
-    "url": "https://github.com/JuanDeDiosO/matrix-solve"
+    "url": "https://github.com/JDCodeWork/matrix-solve"
   },
   "dependencies": {
     "fraction.js": "^4.3.7"
@@ -24,6 +24,7 @@
   "devDependencies": {
     "@babel/core": "^7.24.4",
     "@babel/preset-env": "^7.24.4",
+    "@changesets/cli": "^2.27.1",
     "@types/jest": "^29.5.12",
     "babel-jest": "^29.7.0",
     "eslint": "^8.57.0",
