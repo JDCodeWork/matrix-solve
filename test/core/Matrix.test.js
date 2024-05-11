@@ -1,3 +1,4 @@
+import { describe, beforeEach, test, expect } from '@jest/globals'
 import { Matrix } from '../../src/core/Matrix'
 
 describe('test in core of Matrix Class with natural numbers', () => {
@@ -129,5 +130,5 @@ describe('test in core of Matrix Class with fractions', () => {
 
     expect(matrix.getMatrix()).toEqual(EXPECTED_MATRIX)
   })
-  // 
+  //
 })

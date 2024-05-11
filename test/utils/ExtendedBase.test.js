@@ -1,6 +1,7 @@
+import { describe, beforeEach, test, expect } from '@jest/globals'
 import { ExtendedBase as Matrix } from '../../src/utils/ExtendedBase'
 
-describe('test in core of Matrix Class with fractions', () => {
+describe('Test in Base extended of Matrix', () => {
   const MATRIX_BASE = [
     ['2', '3'],
     ['4', '5']
